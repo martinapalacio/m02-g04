@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&family=Rubik+Mono+One&display=swap');
+body {background-color: #F5EEF8;
+	white-space: 100vw;
+	margin: 0;
+	padding: 0;
+	/* Mi referencia para el código white-space es https://www.w3schools.com/cssref/pr_text_white-space.php */
+}
+
+.caja {background-color: white;
+	width: 500px;
+	height: 300px;
+	margin: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+	size: 30px;
+	margin: 10px;
+}
+
+h2 {font-family: 'Encode Sans', sans-serif;
+	text-align: center;
+	size: 25px;
+	margin: 10px;
+	margin-top: 20px;
+}
+
+a {font-family: 'Encode Sans', sans-serif; 
+	text-align: center;
+	size: 20px;
+	display: block;
+}
+
+
+
+
+
+.estrella {margin-top: -67px;
+	margin-left: -235px;
+	position: absolute;
+	}
+
+.Triangulo {width: 0;
+	height: 0;
+	border-top: 150px solid transparent;
+	border-left: 250px solid blue;
+	border-bottom: 150px solid transparent;
+	position: absolute;
+	/* Mi referencia para crear el triángulo es https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados */
+}
+
+.Franja1 {background-color: red;
+	width: 500px;
+	height: 60px;
+	margin-top: 0px;
+	position: absolute;
+}
+
+.Franja2 {background-color: red;
+	width: 500px;
+	height: 75px;
+	margin-top: 113px;
+	position: absolute;
+}
+
+.Franja3 {background-color: red;
+	width: 500px;
+	height: 60px;
+	margin-top: 240px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+.fra1 {background-color: #FCC811;
+	width: 500px;
+	height: 65px;
+	margin-top: 117px;
+	position: absolute;
+}
+
+.fra2 {background-color: #FCC811;
+	width: 65px;
+	height: 300px;
+	margin-top: 0px;
+	margin-left: 140px;
+	position: absolute;
+}
+
+.ban {background-color: #0870B0;
+	width: 500px;
+	height: 300px;
+	margin: 0px;
+}
+
+
+
+
+
+.esp1 {background-color: #CA1717;
+	width: 500px;
+	height: 80px;
+	margin-top: 220px;
+	position: absolute;
+}
+
+.esp2 {background-color: #CA1717;
+	width: 500px;
+	height: 80px;
+	margin-top: 0px;
+	position: absolute;
+}
+
+.esp3 {background-color: #030670;
+	width: 500px;
+	height: 140px;
+	margin-top: 80px;
+	position: absolute;
+}
+
+.circulo {width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: white;
+	margin-top: 100px;
+	margin-left: 200px;
+	position: absolute;
+	/* Mi referencia para crear el círculo es https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados */
+}
+
+
+
+
+
+.f1 {background-color: white;
+	width: 500px;
+	height: 54px;
+	margin-top: 124px;
+	position: absolute;
+}
+
+.f2 {background-color: white;
+	width: 54px;
+	height: 300px;
+	margin-left: 123px;
+	margin-top: 0px;
+	position: absolute;
+}
+
+.f3 {background-color: red;
+	width: 500px;
+	height: 30px;
+	margin-top: 135px;
+	position: absolute;
+}
+
+.f4 {background-color: red;
+	width: 30px;
+	height: 300px;
+	margin-left: 135px;
+	margin-top: 0px;
+	position: absolute;}
+
+.band {background-color:#0B37DE;
+	width: 500px;
+	height: 300px;
+	margin: 0px;
+}
