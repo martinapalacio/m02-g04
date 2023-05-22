@@ -1,177 +1,187 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Inter:wght@400;700&family=Italiana&display=swap');
 body {background-color: white;
 	white-space: 100vw;
 	margin: 0;
 	padding: 0;
-	/* Mi referencia para el código white-space es https://www.w3schools.com/cssref/pr_text_white-space.php */
+	width: 100%;
 }
 
-.caja {background-color: white;
-	width: 500px;
-	height: 300px;
-	margin: 40px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.foto {position: static;
+	max-width: 100%;
 }
 
-h1 {font-family: 'Rubik Mono One', sans-serif;
+h1 {font-size: 30px;
+	margin-bottom: 100px;
+	background-color: #A3CBCB;
+	width: 300px;
+	margin-top: -100px;
+	color: white;
+	font-family: 'Abhaya Libre', serif;
+}
+
+h2 {font-size: 60px;
+	font-family: 'Italiana', serif;
+	margin-left: 20px;
+}
+
+#texto {column-count: 2;
+	height: 200px;
+}
+
+#quees {
+	font-family: 'Abhaya Libre', serif;
+	margin-right: 30px;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #D9D9D9;
+	width: -90px;
+}
+
+.caja p {margin-bottom: 20px;
+	margin-top: -20px;
+	margin-left: 100px;
+}
+
+.gerfried {width: 200px;
+margin-left: 45px;}
+
+.autor {background-color: #A3CBCB;
+	padding-left: 30px;
+	width: 300px;
+	padding: 30px;
+	margin-left: 45px;
+	position: absolute;
+}
+
+.autor h3 {font-family: 'Italiana', serif;
 	text-align: center;
-	size: 30px;
-	margin: 10px;
+	font-size: 20px;}
+
+.autor p {text-align: center;
+	font-family: 'Italiana', serif;
 }
 
-h2 {font-family: 'Encode Sans', sans-serif;
+#descripcion {margin-bottom: 500px;
+	margin-left: 600px;
+	column-count: 2;
+	column-gap: 60px;
+	width: 700px;
+	font-size: 20px;
+	height: 1000px;
+}
+
+#proyecto {background-color: #D9D9D9;
+	margin-top: -900px;
+	max-width: 100%;
+	height: 1000px;
+}
+
+#video {padding-top: 20px;
+	margin-left: 50px;
+	position: absolute;
+}
+
+#descripcion2 h3 {font-family: 'Italiana', serif;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#descripcion2 {margin-left: 800px;
+	width: 500px;
+	font-size: 20px;
+	height: 1000px;
+	padding-top: 30px;
+}
+
+.ricardo {width: 200px;
+margin-left: 45px;}
+
+#ricardoonascimento {background-color: #A3CBCB;
+	padding-left: 30px;
+	width: 300px;
+	padding: 30px;
+	margin-left: 45px;
+	margin-top: -550px;
+}
+
+#ricardoonascimento h3 {font-family: 'Italiana', serif; 
 	text-align: center;
-	size: 25px;
-	margin: 10px;
-	margin-top: 20px;
+	font-size: 20px;}
+
+#ricardoonascimento p {text-align: center;
 }
 
-a {font-family: 'Encode Sans', sans-serif; 
-	text-align: center;
-	size: 20px;
-	display: block;
-}
-
-
-
-
-
-.estrella {margin-top: -67px;
-	margin-left: -235px;
-	position: absolute;
-	}
-
-.Triangulo {width: 0;
-	height: 0;
-	border-top: 150px solid transparent;
-	border-left: 250px solid blue;
-	border-bottom: 150px solid transparent;
-	position: absolute;
-	/* Mi referencia para crear el triángulo es https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados */
-}
-
-.Franja1 {background-color: red;
+#foto {margin-top: -400px;
+	margin-left: 600px;
 	width: 500px;
-	height: 60px;
-	margin-top: 0px;
-	position: absolute;
-}
-
-.Franja2 {background-color: red;
-	width: 500px;
-	height: 75px;
-	margin-top: 113px;
-	position: absolute;
-}
-
-.Franja3 {background-color: red;
-	width: 500px;
-	height: 60px;
-	margin-top: 240px;
-	position: absolute;
+	height: 200px;
 }
 
 
-
-
-
-
-
-.fra1 {background-color: #FCC811;
-	width: 500px;
-	height: 65px;
-	margin-top: 117px;
-	position: absolute;
+.ricardo2 {position: absolute;
+	margin-left: 430px;
+	margin-top: -490px;
 }
 
-.fra2 {background-color: #FCC811;
-	width: 65px;
-	height: 300px;
-	margin-top: 0px;
-	margin-left: 140px;
-	position: absolute;
+#relacion >h2 {text-align: center;}
+
+#hamaca {width: 500px;
+	height: 500px;
+	align-content: center;
+	margin-left: 250px;
 }
 
-.ban {background-color: #0870B0;
-	width: 500px;
-	height: 300px;
-	margin: 0px;
+.personasentada {width: 350px;
+height: 450px;
+}
+
+#imagenes {width: 350px;
+	height: 500px;
+	align-content: center;
+	margin-left: 900px;
+	margin-top: -500px;
+}
+
+#hamaca h3 {font-family: 'Abhaya Libre', serif;
+font-size: 20px;}
+
+#analisis {margin-left: 400px;
+	width: 700px;
+	background-color: #D9D9D9;
+	padding: 20px;
+}
+
+#analisis h3 {font-family: 'Abhaya Libre', serif;
+font-size: 20px;
+text-align: center;
 }
 
 
-
-
-
-.esp1 {background-color: #CA1717;
-	width: 500px;
-	height: 80px;
-	margin-top: 220px;
-	position: absolute;
-}
-
-.esp2 {background-color: #CA1717;
-	width: 500px;
-	height: 80px;
-	margin-top: 0px;
-	position: absolute;
-}
-
-.esp3 {background-color: #030670;
-	width: 500px;
-	height: 140px;
-	margin-top: 80px;
-	position: absolute;
-}
-
-.circulo {width: 100px;
+footer {background-color: #A3CBCB;
 	height: 100px;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	background: white;
-	margin-top: 100px;
-	margin-left: 200px;
-	position: absolute;
-	/* Mi referencia para crear el círculo es https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados */
+position: static;}
+
+#texto {padding: 30px;
 }
 
 
+h3 {font-size: 10px;}
 
+.portada1 {position: relative;
+display: inline-block;
+text-align: center;
+background-color: black;}
 
-
-.f1 {background-color: white;
-	width: 500px;
-	height: 54px;
-	margin-top: 124px;
-	position: absolute;
+header {background-color: #A3CBCB;
+	padding: 30px;
+	text-align: center;
+	max-width: 100%;
 }
 
-.f2 {background-color: white;
-	width: 54px;
-	height: 300px;
-	margin-left: 123px;
-	margin-top: 0px;
-	position: absolute;
-}
-
-.f3 {background-color: red;
-	width: 500px;
-	height: 30px;
-	margin-top: 135px;
-	position: absolute;
-}
-
-.f4 {background-color: red;
-	width: 30px;
-	height: 300px;
-	margin-left: 135px;
-	margin-top: 0px;
-	position: absolute;}
-
-.band {background-color:#0B37DE;
-	width: 500px;
-	height: 300px;
-	margin: 0px;
+header >a {padding: 70px;
+	position: static;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
 }
